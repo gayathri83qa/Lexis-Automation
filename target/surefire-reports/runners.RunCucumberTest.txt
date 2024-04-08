@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: runners.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.209 s <<< FAILURE! -- in runners.RunCucumberTest
+Validate elements on the LexisNexis homepage.Verify elements under Transform Your Risk Decision Making heading -- Time elapsed: 0.034 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'I open the LexisNexis homepage' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Given("I open the LexisNexis homepage")
+public void i_open_the_lexis_nexis_homepage() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
